@@ -121,3 +121,25 @@
   .css-button-shadow-border-sliding--rose:active {
     top: 2px;
   }
+
+.btn-wsp{
+    font-size: 25px;
+    color: black;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: pink;
+    
+}
+
+.boton_face{
+    font-size: 25px;
+    color: black;
+}
+
+.boton_inst{
+    font-size: 25px;
+    color: black;
+}
+
