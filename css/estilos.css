@@ -24,10 +24,11 @@
 
 .texto_menu{
     font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
 }
 
 .margen_icono_inicio{
-    margin-top: 15px;
+    margin-top: 17px;
 }
 
 .margen_inicio{
@@ -37,7 +38,7 @@
 }
 
 .margen_icono_contacto{
-    margin-top: 17px;
+    margin-top: 19px;
 }
 
 .margen_contacto{
@@ -143,3 +144,19 @@
     color: black;
 }
 
+.titulos_cards{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.mas_info{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.tipo_parrafos{
+    font-family: 'Noto Serif', serif;
+}
+
+.tipo_parrafos_2{
+    font-family: 'Unna', serif;
+}
