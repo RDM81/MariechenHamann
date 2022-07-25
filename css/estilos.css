@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .margen_menu{
     margin-right: 30px;
     margin-left: 30px;
@@ -130,7 +135,7 @@
 
 .btn-wsp:hover{
     text-decoration: none;
-    color: pink;
+    color:white;
     
 }
 
@@ -140,6 +145,11 @@
 }
 
 .boton_inst{
+    font-size: 25px;
+    color: black;
+}
+
+.boton_email{
     font-size: 25px;
     color: black;
 }
@@ -159,4 +169,195 @@
 
 .tipo_parrafos_2{
     font-family: 'Unna', serif;
+}
+
+/* .container_contacto{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 140px auto;
+    background: white;
+}
+
+.container_contacto .box{
+    position: relative;
+    width: calc(400px - 20px);
+    height: calc(300px - 30px);
+    background-color: chartreuse;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container_contacto .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container_contacto .box .icon:hover{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container_contacto .box .icon .ic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    font-size: 50px;
+}
+
+.container_contacto .box:hover .icon .ic{
+    height: 40px;
+}
+
+.container_contacto .box .content{
+    position: absolute;
+    height: calc(100% - 10px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    top: 100%;
+    transition: 0.5s;
+} */
+
+
+.position_tarjetas{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_contacto .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container_contacto .box::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,.2);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.container_contacto .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.container_contacto .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+
+}
+
+.container_contacto .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container_contacto .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+
+}
+
+.container_contacto .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container_contacto .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+
+}
+
+.container_contacto .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container_contacto .box:nth-child(4) .icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+
+}
+
+.container_contacto .box:nth-child(4):hover .icon{
+    box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container_contacto .box .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container_contacto .box:hover .content{
+    color: #fff;
+}
+
+.container_contacto .box .content h3{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+
+}
+
+.container_contacto .box .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.vinculo_contacto{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+
 }
