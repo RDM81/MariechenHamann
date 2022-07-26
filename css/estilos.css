@@ -171,73 +171,10 @@ body{
     font-family: 'Unna', serif;
 }
 
-/* .container_contacto{
-    position: relative;
-    width: 1200px;
-    height: 300px;
-    margin: 140px auto;
-    background: white;
-}
-
-.container_contacto .box{
-    position: relative;
-    width: calc(400px - 20px);
-    height: calc(300px - 30px);
-    background-color: chartreuse;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.container_contacto .box .icon{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: red;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-.container_contacto .box .icon:hover{
-    top: 20px;
-    left: calc(50% - 40px);
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.container_contacto .box .icon .ic{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s;
-    font-size: 50px;
-}
-
-.container_contacto .box:hover .icon .ic{
-    height: 40px;
-}
-
-.container_contacto .box .content{
-    position: absolute;
-    height: calc(100% - 10px);
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    top: 100%;
-    transition: 0.5s;
-} */
-
-
 .position_tarjetas{
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+   
 }
 
 .container_contacto{
@@ -360,4 +297,64 @@ body{
     margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 
+}
+
+
+
+
+.position_cursos{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_cursos{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card_cursos{
+    
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+
+.card_cursos:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card_cursos img{
+    width: 100%;
+   
+}
+
+.card_cursos .contenido_cursos{
+    padding: 15px;
+    
+}
+
+.vinculo_card{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ff6392;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    color: #ff6392;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.vinculo_card:hover{
+    background: #ff6392;
+    color: #fff;
 }
