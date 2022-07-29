@@ -446,7 +446,7 @@
 }
 
 .light-box{
-    
+
     position: fixed;
     top:0;
     left: 0;
@@ -470,6 +470,8 @@
 .light-box:target{
     transform: scale(1);
 }
+
+
 
 .close{
     display: block;
