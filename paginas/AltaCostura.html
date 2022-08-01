@@ -44,8 +44,13 @@
                                     <li class="nav-item">
                                         <a class="nav-link margen_menu texto_menu" href="../paginas/QuienesSomos.html">NOSOTROS</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link margen_menu texto_menu" href="#">CURSOS</a>
+                                    <li class="nav-item dropdown margen_menu texto_menu color_desplegable">
+                                        <a class="nav-link dropdown-toggle color_desplegable" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">CURSOS</a>
+                                        <ul class="dropdown-menu color_desplegable " aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item color_desplegable" href="../paginas/AltaCostura.html">- ALTA COSTURA</a></li>
+                                            <li><a class="dropdown-item" href="../paginas/VestidosFiesta.html">- VESTIDOS DE FIESTA</a></li>
+                                            <li><a class="dropdown-item" href="../paginas/AsesoraImagen.html">- ASESORA DE IMAGEN</a></li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link margen_menu texto_menu" href="../paginas/tips.html">CONSEJOS</a>
@@ -71,7 +76,7 @@
     <div class="row g-3">
         <div class="col-12 ">
             <!-- <h4 class="titulo_indice">MÓDULO I: INTRODUCCIÓN. CONOCIMIENTOS PREVIOS</h4> -->
-            <img class="imagen_temario_AltaCostura" src="../assets/carrusell/2.jpg" alt="">
+            <img class="imagen_temario_AltaCostura" src="../assets/carrusell/28.jpg" alt="">
             <h5 class="sub_title_indice">Temario</h5>
                 <p class="parrafo_indice">- <b>MÓDULO I: </b> Introducción. Conocimientos previos indispensables.</p>
                 <p class="parrafo_indice">- <b>MÓDULO II: </b> Patronaje. Conocimientos previos. Tipos de patrones o moldes.</p>
@@ -88,62 +93,47 @@
 
 
 
-
-<div class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image001.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image010.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image003.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image004.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image005.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image006.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image007.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image011.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="../assets/carrusell/AltaCostura/image009.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+<section class="galeria">
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <a class="imagenes_indice_vinculo" href="#image1"><img class="" src="../assets/carrusell/image002.jpg" alt="..."></a>
         </div>
-</div>
+        <div class="col-lg-3 col-md-6">
+            <a class="imagenes_indice_vinculo" href="#image2"><img class="" src="../assets/carrusell/28.jpg" alt="..."></a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a class="imagenes_indice_vinculo" href="#image3"><img class="" src="../assets/carrusell/29.jpg" alt="..."></a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a class="imagenes_indice_vinculo" href="#image4"><img class="" src="../assets/carrusell/30.jpg" alt="..."></a>
+        </div>
+    </div>
+</section>
 
+<article class="light-box" id="image1">
+        <a href="#image4" class="next"><i class="bi bi-caret-left-fill"></i></a>
+        <img src="../assets/carrusell/image002.jpg" alt="...">
+        <a href="#image2" class="next"><i class="bi bi-caret-right-fill"></i></a>
+        <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="image2">
+    <a href="#image1" class="next"><i class="bi bi-caret-left-fill"></i></a>
+    <img src="../assets/carrusell/28.jpg" alt="...">
+    <a href="#image3" class="next"><i class="bi bi-caret-right-fill"></i></a>
+    <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="image3">
+    <a href="#image2" class="next"><i class="bi bi-caret-left-fill"></i></a>
+    <img src="../assets/carrusell/29.jpg" alt="...">
+    <a href="#image4" class="next"><i class="bi bi-caret-right-fill"></i></a>
+    <a href="#" class="close">X</a>
+</article>
+<article class="light-box" id="image4">
+    <a href="#image3" class="next"><i class="bi bi-caret-left-fill"></i></a>
+    <img src="../assets/carrusell/30.jpg" alt="...">
+    <a href="#image1" class="next"><i class="bi bi-caret-right-fill"></i></a>
+    <a href="#" class="close">X</a>
+</article>
 
 <br>
 <br>

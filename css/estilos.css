@@ -11,6 +11,10 @@
 
 }
 
+.color_desplegable{
+    background-color: rgb(252, 200, 200);
+}
+
 
 .navbar-collapse{
     flex-grow:0;
@@ -485,4 +489,18 @@
 .next{
     display: block;
     color: white;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .ocultar_icono{
+        display: none;
+    }
+
+    .margen_menu_mobil{
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
 }
