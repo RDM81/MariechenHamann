@@ -503,4 +503,8 @@
         margin-bottom: 0;
         margin-left: 0;
     }
+
+    .carrusel_oculto{
+        display: none;
+    }
 }
